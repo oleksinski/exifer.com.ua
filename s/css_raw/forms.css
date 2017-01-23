@@ -1,0 +1,90 @@
+input, textarea {
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 10px;
+}
+
+/* basic button css */
+.button {
+	padding: 3px 5px;
+	cursor:pointer;
+	text-align:center;
+	display: inline-block;
+	color: #666;
+	text-decoration: none;
+	position: relative;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.6) 0 1px 5px;
+	-moz-box-shadow: rgba(0,0,0,0.6) 0 1px 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.6) 0 1px 5px;
+
+	border:1px solid #BD9E43;
+	background:url('/img/button.gif') repeat-x left 0px;
+	font-weight:700;
+}
+.button:hover {
+	background-position:left -24px;
+	text-decoration:none;
+}
+
+/* button pros */
+.btn_pros {}
+.btn_pros:hover {}
+
+/* button cons */
+.btn_cons {
+	border-color:#9D9D9D;
+	background:url('/img/button.gif') repeat-x left -48px;
+	font-weight:500;
+}
+.btn_cons:hover {
+	background-position:left -72px;
+}
+
+/* basic select css */
+.select {
+	padding: 3px 5px;
+	cursor:pointer;
+	display: inline-block;
+	color: #666;
+	text-decoration: none;
+	position: relative;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.6) 0 1px 5px;
+	-moz-box-shadow: rgba(0,0,0,0.6) 0 1px 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.6) 0 1px 5px;
+
+	border:1px solid #BD9E43;
+	background:url('/img/button.gif') repeat-x left 0px;
+}
+.select:hover {
+	background-position:left -24px;
+	text-decoration:none;
+}
+
+/* select pros */
+.select_pros {}
+.select_pros:hover {}
+
+/* select cons */
+.select_cons {
+	border-color:#9D9D9D;
+	background:url('/img/button.gif') repeat-x left -48px;
+}
+.select_cons:hover {
+	background-position:left -72px;
+}
+
+/* input text */
+.input_text {
+	border:1px solid #CBCCCE;
+	padding:3px 5px;
+	width:260px;
+}
+.input_text:focus {
+	border:1px solid #F8B500;
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<cross-domain-policy>
+	<allow-access-from domain="*.exifer.com.ua" />
+	<allow-access-from domain="*.exifer.dev" />
+</cross-domain-policy>

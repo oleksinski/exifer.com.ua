@@ -1,0 +1,26 @@
+User-agent: *
+#Crawl-delay: 200
+Disallow: /profile/lenta*
+Disallow: /photo/lenta*
+Disallow: /comment/lenta*
+Disallow: /auth/login*
+Disallow: /auth/logout*
+Disallow: /auth/remind*
+Disallow: /auth/register*
+Disallow: /auth/activate*
+Disallow: /support/feedback*
+Disallow: /profiles/?*
+Disallow: /profiles?*
+Disallow: /photos/?*
+Disallow: /photos?*
+Disallow: /comments/?*
+Disallow: /comments?*
+
+#User-agent: Yandex
+#Crawl-delay: 5
+#Clean-param: country&city&occupation&experience&orderby&ordermethod&viewmode /profiles
+#Clean-param: genre&uid&orderby&ordermethod&viewmode&date /photos
+#Clean-param: uid&date&genre /comments
+
+Host: exifer.com.ua
+Sitemap: http://exifer.com.ua/sitemap.xml

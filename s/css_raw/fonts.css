@@ -1,0 +1,83 @@
+h1 {
+	font-size:2.1em;
+}
+h2 {
+	font-size:1.8em;
+}
+h3 {
+	font-size:1.5em;
+}
+h4 {
+	font-size:1em;
+}
+p {
+	line-height:1.5;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+	font-size:inherit;
+	text-decoration:underline !important;
+}
+
+h1 a.h_none, h2 a.h_none, h3 a.h_none, h4 a.h_none {
+	text-decoration:none !important;
+}
+
+.small {
+	font-size:1em;
+	/*font-family:Tahoma;*/
+}
+.large {
+	font-size:1.25em !important;
+}
+.xlarge {
+	font-size:1.75em !important;
+}
+.underline {
+	text-decoration:underline;
+}
+.gray {
+	color:#999;
+}
+.red {
+	color:#DA1117;
+}
+.green {
+	color:#5A9C4D;
+}
+.white {
+	color:white;
+}
+.bold {
+	font-weight:bold;
+}
+a.tech {
+	color:#838383;
+}
+a.tech_dark {
+	color:#000;
+}
+a.tech_dark:hover {
+	color:#666;
+	text-decoration:none;
+}
+a.tech_dashed {
+	color:#838383;
+	border-bottom: 1px dashed #838383;
+}
+a.tech_dashed:hover {
+	text-decoration:none;
+}
+a.inlink {
+	color:#27408B;
+}
+.blink {
+	color:#DA1117;
+	text-decoration:blink;
+}
+.highlight {
+	background-color:yellow;
+}
+.highlight1 {
+	background-color:blue;
+}

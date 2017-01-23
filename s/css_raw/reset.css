@@ -1,0 +1,59 @@
+ul, ol, li, h1, h2, h3, h4, h5, h6, form, body, html, blockquote, fieldset, dl, dt, dd, caption {
+	margin: 0;
+	padding: 0;
+}
+
+html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+html {
+	font-size:62.5%;
+	height:100%;
+}
+body {
+	font-size:100.01%;
+	color:#222222;
+	margin:0;
+	padding:0;
+	text-align:left;
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	font-size:1.2em !important;
+	line-height:normal;
+	/*font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family:Arial,Helvetica,Verdana,sans-serif;*/
+	/*font-family:Tahoma,Verdana,Arial,sans-serif,Lucida Sans;*/
+}
+form {
+	display:inline;
+}
+b {
+	font-weight:700;
+}
+a, img {
+	border:none;
+}
+a {
+	color:#1A00A0;
+	text-decoration:none;
+}
+a:hover {
+	color:#E30029;
+	text-decoration:underline;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+.hnill {
+	margin-top:0px;
+	padding-top:0px;
+}
+.hfnill {
+	margin:0px;
+	padding:0px;
+}
+td, th {
+	text-align:left;
+}
+ul, li {
+	list-style-type:none;
+}
